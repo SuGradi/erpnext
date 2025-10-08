@@ -45,14 +45,6 @@
   "column_break_31",
   "territory",
   "fax",
-  "address_section",
-  "address_html",
-  "column_break_38",
-  "city",
-  "state",
-  "country",
-  "column_break2",
-  "contact_html",
   "qualification_tab",
   "qualification_status",
   "column_break_64",
@@ -197,22 +189,6 @@
    "fieldname": "contact_info_tab",
    "fieldtype": "Section Break",
    "label": "Contact Info"
-  },
-  {
-   "fieldname": "address_html",
-   "fieldtype": "HTML",
-   "label": "Address HTML",
-   "read_only": 1
-  },
-  {
-   "fieldname": "column_break2",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "contact_html",
-   "fieldtype": "HTML",
-   "label": "Contact HTML",
-   "read_only": 1
   },
   {
    "fieldname": "phone",
@@ -407,12 +383,6 @@
    "options": "Unqualified\nIn Process\nQualified"
   },
   {
-   "collapsible": 1,
-   "fieldname": "address_section",
-   "fieldtype": "Section Break",
-   "label": "Address & Contacts"
-  },
-  {
    "fieldname": "column_break_64",
    "fieldtype": "Column Break"
   },
@@ -486,26 +456,6 @@
    "label": "Disabled"
   },
   {
-   "fieldname": "column_break_38",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "city",
-   "fieldtype": "Data",
-   "label": "City"
-  },
-  {
-   "fieldname": "state",
-   "fieldtype": "Data",
-   "label": "State/Province"
-  },
-  {
-   "fieldname": "country",
-   "fieldtype": "Link",
-   "label": "Country",
-   "options": "Country"
-  },
-  {
    "fieldname": "dashboard_tab",
    "fieldtype": "Tab Break",
    "label": "Connections",
@@ -517,7 +467,7 @@
  "idx": 5,
  "image_field": "image",
  "links": [],
- "modified": "2025-06-26 11:02:01.158901",
+ "modified": "2025-09-21 18:02:52.428946",
  "modified_by": "Administrator",
  "module": "CRM",
  "name": "Lead",

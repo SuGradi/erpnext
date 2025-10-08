@@ -14,10 +14,6 @@
   "swift_number",
   "column_break_1",
   "website",
-  "address_and_contact",
-  "address_html",
-  "column_break_13",
-  "contact_html",
   "data_import_configuration_section",
   "bank_transaction_mapping",
   "section_break_4",
@@ -51,29 +47,9 @@
    "search_index": 1
   },
   {
-   "fieldname": "address_and_contact",
-   "fieldtype": "Section Break",
-   "label": "Address and Contact",
-   "options": "fa fa-map-marker"
-  },
-  {
-   "fieldname": "address_html",
-   "fieldtype": "HTML",
-   "label": "Address HTML"
-  },
-  {
    "fieldname": "website",
    "fieldtype": "Data",
    "label": "Website"
-  },
-  {
-   "fieldname": "column_break_13",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "contact_html",
-   "fieldtype": "HTML",
-   "label": "Contact HTML"
   },
   {
    "collapsible": 1,
@@ -101,10 +77,11 @@
   }
  ],
  "links": [],
- "modified": "2020-07-17 14:00:13.105433",
+ "modified": "2025-09-21 18:02:08.437218",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Bank",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -121,7 +98,9 @@
   }
  ],
  "quick_entry": 1,
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }

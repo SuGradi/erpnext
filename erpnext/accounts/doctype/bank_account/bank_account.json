@@ -26,10 +26,6 @@
   "column_break_12",
   "branch_code",
   "bank_account_no",
-  "address_and_contact",
-  "address_html",
-  "column_break_13",
-  "contact_html",
   "integration_details_section",
   "integration_id",
   "last_integration_date",
@@ -146,26 +142,6 @@
    "length": 30
   },
   {
-   "fieldname": "address_and_contact",
-   "fieldtype": "Section Break",
-   "label": "Address and Contact",
-   "options": "fa fa-map-marker"
-  },
-  {
-   "fieldname": "address_html",
-   "fieldtype": "HTML",
-   "label": "Address HTML"
-  },
-  {
-   "fieldname": "column_break_13",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "contact_html",
-   "fieldtype": "HTML",
-   "label": "Contact HTML"
-  },
-  {
    "fieldname": "integration_details_section",
    "fieldtype": "Section Break",
    "label": "Integration Details"
@@ -250,7 +226,7 @@
    "link_fieldname": "default_bank_account"
   }
  ],
- "modified": "2024-10-30 09:41:14.113414",
+ "modified": "2025-09-21 18:02:24.692599",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Bank Account",
@@ -282,6 +258,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "search_fields": "bank,account",
  "sort_field": "modified",
  "sort_order": "DESC",

@@ -16,9 +16,8 @@ class Shareholder(Document):
 	from typing import TYPE_CHECKING
 
 	if TYPE_CHECKING:
-		from frappe.types import DF
-
 		from erpnext.accounts.doctype.share_balance.share_balance import ShareBalance
+		from frappe.types import DF
 
 		company: DF.Link
 		contact_list: DF.Code | None

@@ -31,16 +31,12 @@ class Opportunity(TransactionBase, CRMNote):
 	from typing import TYPE_CHECKING
 
 	if TYPE_CHECKING:
-		from frappe.types import DF
-
 		from erpnext.crm.doctype.competitor_detail.competitor_detail import CompetitorDetail
 		from erpnext.crm.doctype.crm_note.crm_note import CRMNote
 		from erpnext.crm.doctype.opportunity_item.opportunity_item import OpportunityItem
-		from erpnext.crm.doctype.opportunity_lost_reason_detail.opportunity_lost_reason_detail import (
-			OpportunityLostReasonDetail,
-		)
+		from erpnext.crm.doctype.opportunity_lost_reason_detail.opportunity_lost_reason_detail import OpportunityLostReasonDetail
+		from frappe.types import DF
 
-		address_display: DF.SmallText | None
 		amended_from: DF.Link | None
 		annual_revenue: DF.Currency
 		base_opportunity_amount: DF.Currency
@@ -49,14 +45,12 @@ class Opportunity(TransactionBase, CRMNote):
 		city: DF.Data | None
 		company: DF.Link
 		competitors: DF.TableMultiSelect[CompetitorDetail]
-		contact_display: DF.SmallText | None
 		contact_email: DF.Data | None
 		contact_mobile: DF.Data | None
 		contact_person: DF.Link | None
 		conversion_rate: DF.Float
 		country: DF.Link | None
 		currency: DF.Link | None
-		customer_address: DF.Link | None
 		customer_group: DF.Link | None
 		customer_name: DF.Data | None
 		expected_closing: DF.Date | None

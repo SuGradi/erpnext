@@ -17,10 +17,6 @@
   "column_break_4",
   "account",
   "company",
-  "address_and_contact",
-  "address_html",
-  "column_break_10",
-  "contact_html",
   "warehouse_contact_info",
   "email_id",
   "phone_no",
@@ -94,26 +90,6 @@
    "fieldtype": "Link",
    "label": "Account",
    "options": "Account"
-  },
-  {
-   "depends_on": "eval:!doc.__islocal",
-   "fieldname": "address_and_contact",
-   "fieldtype": "Section Break",
-   "label": "Address and Contact"
-  },
-  {
-   "fieldname": "address_html",
-   "fieldtype": "HTML",
-   "label": "Address HTML"
-  },
-  {
-   "fieldname": "column_break_10",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "contact_html",
-   "fieldtype": "HTML",
-   "label": "Contact HTML"
   },
   {
    "collapsible": 1,
@@ -264,7 +240,7 @@
  "idx": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2025-06-26 11:19:04.673115",
+ "modified": "2025-09-21 18:09:08.988808",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Warehouse",

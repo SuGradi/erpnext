@@ -14,10 +14,6 @@
   "column_break_4",
   "company",
   "is_company",
-  "address_contacts",
-  "address_html",
-  "column_break_9",
-  "contact_html",
   "section_break_3",
   "share_balance",
   "contact_list"
@@ -70,28 +66,6 @@
    "read_only": 1
   },
   {
-   "fieldname": "address_contacts",
-   "fieldtype": "Section Break",
-   "label": "Address and Contacts",
-   "options": "fa fa-map-marker"
-  },
-  {
-   "fieldname": "address_html",
-   "fieldtype": "HTML",
-   "label": "Address HTML",
-   "read_only": 1
-  },
-  {
-   "fieldname": "column_break_9",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "contact_html",
-   "fieldtype": "HTML",
-   "label": "Contact HTML",
-   "read_only": 1
-  },
-  {
    "fieldname": "section_break_3",
    "fieldtype": "Section Break",
    "label": "Share Balance"
@@ -113,7 +87,7 @@
   }
  ],
  "links": [],
- "modified": "2023-04-10 22:02:20.406087",
+ "modified": "2025-09-21 18:08:53.257213",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Shareholder",
@@ -157,6 +131,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "search_fields": "folio_no",
  "sort_field": "modified",
  "sort_order": "DESC",
