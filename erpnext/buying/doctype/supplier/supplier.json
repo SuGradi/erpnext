@@ -485,7 +485,7 @@
    "link_fieldname": "party"
   }
  ],
- "modified": "2025-10-01 17:15:09.405988",
+ "modified": "2025-11-05 17:22:12.921280",
  "modified_by": "Administrator",
  "module": "Buying",
  "name": "Supplier",
@@ -531,6 +531,16 @@
    "read": 1,
    "report": 1,
    "role": "\u8ddf\u5355",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "\u5355\u8bc1",
    "share": 1,
    "write": 1
   }
