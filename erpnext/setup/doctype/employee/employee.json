@@ -117,7 +117,7 @@
   "lft",
   "rgt",
   "old_parent",
-  "connections_tab"
+  "tab_9_tab"
  ],
  "fields": [
   {
@@ -776,12 +776,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "connections_tab",
-   "fieldtype": "Tab Break",
-   "label": "Connections",
-   "show_dashboard": 1
-  },
-  {
    "fieldname": "column_break_32",
    "fieldtype": "Column Break"
   },
@@ -815,6 +809,12 @@
    "fieldname": "iban",
    "fieldtype": "Data",
    "label": "IBAN"
+  },
+  {
+   "fieldname": "tab_9_tab",
+   "fieldtype": "Tab Break",
+   "label": "\u5173\u8054",
+   "show_dashboard": 1
   }
  ],
  "icon": "fa fa-user",
@@ -822,7 +822,7 @@
  "image_field": "image",
  "is_tree": 1,
  "links": [],
- "modified": "2025-07-04 08:29:34.347269",
+ "modified": "2025-11-13 16:00:22.292361",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "Employee",
@@ -864,6 +864,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "search_fields": "employee_name",
  "show_name_in_global_search": 1,
  "sort_field": "modified",
